@@ -26,7 +26,7 @@ pipelines:
           dockerFileLocation: .
           dockerFileName: Dockerfile
           dockerImageName: jatind.jfrog.io/docker-local/mydockerbase  # replace with your image path and name
-          dockerImageTag: ${run_number}
+          dockerImageTag: latest
           inputResources:
             - name: dbp_repo
           integrations:
